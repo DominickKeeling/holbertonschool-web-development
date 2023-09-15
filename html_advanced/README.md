@@ -3,6 +3,7 @@ HTML Advanced
 Description
 For this project I am creating an HTML page from a wireframe
 what is a wireframe-
+![Here is the wireframe for the project](wireframe.jpg)
 
 Requirements
 
