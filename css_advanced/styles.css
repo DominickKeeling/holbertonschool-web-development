@@ -1,0 +1,75 @@
+
+/*#registerButton {
+  background-image: url('/css_advanced/images/button.png');
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+*/
+button {
+    background-color: #c271ff;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+header div {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header div a {
+    color: white;
+    margin-right: 10px;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section:nth-child(1) div:nth-child(1) {
+    text-align: center;
+}
+
+section:nth-child(1) div:nth-child(1) h1 {
+    color: white;
+    font-size: 100px;
+}
+
+section:nth-child(1) div:nth-child(2) div {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+#learn {
+    color: rgb(156, 85, 156);
+}
+
+.motto {
+    color: white;
+    word-spacing: 40px;
+}
+
+section:nth-child(1) div:nth-child(2) {
+    text-align: center;
+
+}
+
+footer {
+
+}
