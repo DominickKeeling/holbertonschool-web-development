@@ -47,6 +47,7 @@ body {
     flex-shrink: 0;
     margin-top: -16.8rem;
     padding-left: 80px;
+    font-family: Source Sans Pro;
     
 }
 
@@ -157,21 +158,25 @@ body {
     padding-right: 3rem;
 }
 
-#quote p.one {
+.quote p.one {
     width: 45.625rem;
     font-weight: 400;
     font-style: normal;
 }
 
-#quote h4 {
+.quote h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 1.375rem;
+    padding-bottom: -40px;
 }
 
-#quote p.two {
+
+
+.quote p.two {
     font-style: italic;
     font-weight: 400;
+    padding-top: -50px;
 }
 
 /* most popular tutorials */
