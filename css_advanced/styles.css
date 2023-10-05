@@ -1,24 +1,3 @@
-
-/*#registerButton {
-  background-image: url('/css_advanced/images/button.png');
-  background-size: cover;
-  width: 150px;
-  height: 50px;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-*/
-button {
-    background-color: #c271ff;
-    color: white;
-    padding: 20px 20px;
-    margin: 20px;
-    border: 0;
-    border-radius: 50px;
-    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.8);
-}
-
 header div {
     display: flex;
     color: white;
@@ -28,48 +7,415 @@ header div {
 }
 
 header div a {
+    display: flex;
+    padding: 10px 35px;
     color: white;
     margin-right: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Source Sans Pro;
+
 }
 
 
 body {
+    width: 100vw;
     height: 100vh;
-    background-image: url("./images/background.png");
+    min-width: 1440px;
+    background: url("./images/background.png");
+    background-size: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    background-color: #071629;
+    overflow-x: hidden;
+    margin: auto;
 }
 
-section:nth-child(1) div:nth-child(1) {
-    text-align: center;
-}
+/* Header */
 
-section:nth-child(1) div:nth-child(1) h1 {
-    color: white;
-    font-size: 100px;
-}
 
-section:nth-child(1) div:nth-child(2) div {
+/* Main */
+
+.get-schooled {
     display: flex;
-    justify-content: space-around;
-    margin: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90.50938rem;
+    height: 65.9375rem;
+    flex-shrink: 0;
+    margin-top: -16.8rem;
+    padding-left: 80px;
+    
 }
 
-
-#learn {
-    color: rgb(156, 85, 156);
+.get-schooled h1 {
+    color: #FFF;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Source Sans Pro;
 }
 
-.motto {
+.get-schooled .motto {
     color: white;
     word-spacing: 40px;
+    font-size: 1.1rem;
+    margin-top: -110px;
 }
 
-section:nth-child(1) div:nth-child(2) {
-    text-align: center;
+#registerButton-top {
+        background-color: #c271ff;
+        color: white;
+        padding: 12px 20px;
+        margin: 20px;
+        border: 0;
+        border-radius: 50px;
+        box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.8);
+}
 
+.pro-block h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    margin-top: -120px;
+}
+
+#learn {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    padding-bottom: 150px;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    flex-flow: column;
+}
+
+.pro h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.6875rem; /* 150% */
+}
+
+.pro p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    margin-top: -10px;
+}
+
+#quote-section {
+    background-color: #C271FF;
+    width: 90rem;
+    height: 24.5rem;
+    flex-shrink: 0;
+    width: 100vw;
+    height: 40vh;
+}
+
+
+.quote-block {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Source Sans Pro;
+    line-height: 2.1rem;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.quote-block img {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+#quote p.one {
+    width: 45.625rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#quote h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+}
+
+#quote p.two {
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* most popular tutorials */
+
+#tutorial-section {
+    background-color: white;
+}
+
+.tutorial-block {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.tutorial-block h2{
+    font-family: Source Sans Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 40px;
+    padding-bottom: 40px;;
+}
+
+.video-block {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#smile {
+    display: flex;
+    justify-content: space-around;
+}
+
+#phillip {
+    display: flex;
+    align-items: center;
+    font-family: Source Sans Pro;
+    color: #C271FF;
+}
+
+.phil {
+    width: 40px;
+    height: 40px;
+    padding-right: 15px;
+}
+
+.phil img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#smile h6 {
+    padding-left: 10px;
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6875rem; /* 192.857% */
+}
+
+#smile p {
+    width: 15.125rem;
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6875rem; /* 192.857% */
+}
+
+.stars {
+    display: flex;
+    padding-right: 130px;
+}
+
+
+
+/* Freee membership */
+
+#membership-section {
+    background-color: black;
+    flex-shrink: 0;
+}
+
+#membership-block {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+#membership-block h2 {
+    padding: 20px;
+}
+
+#memberships {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.membership {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 20px;
+}
+
+#registerButton-bottom {
+    background-color: #c271ff;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* FAQ */
+
+#faq-section {
+    background-color: white;
+    color: black;
+}
+
+#faq-block {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq-block h3 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.how h5 {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    width: 21.875rem;
+}
+
+.paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 65px 200px;
+    grid-template-rows: repeat(2, auto);
+    padding-bottom: 60px;
+}
+
+.poo {
+    color:#C271FF;
+    font-size: 1rem;
+}
+
+.pee {
+    color: #C271FF;
+    font-size: 1rem;
 }
 
 footer {
+    background-color: black;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100vw;
+    height: 15.5625rem;
+    flex-shrink: 0;
+}
 
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*flex-flow: column;*/
+    padding-top: 100px;
+
+}
+
+.footer-smile a {
+    padding-left: 300px;
+}
+
+.social-block {
+    padding-right: 350px;
+}
+
+
+.footer-smile {
+    display: flex;
+    
+}
+
+.copyright p {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 50px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3517;
 }
