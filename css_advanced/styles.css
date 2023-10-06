@@ -45,15 +45,16 @@ body {
     width: 90.50938rem;
     height: 65.9375rem;
     flex-shrink: 0;
-    margin-top: -16.8rem;
+    margin-top: -19rem;
     padding-left: 80px;
+    margin-left: -3rem;
     font-family: Source Sans Pro;
     
 }
 
 .get-schooled h1 {
     color: #FFF;
-    font-size: 7.5rem;
+    font-size: 7.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -71,10 +72,18 @@ body {
         background-color: #c271ff;
         color: white;
         padding: 12px 20px;
-        margin: 20px;
+        margin-top: 20px;
         border: 0;
         border-radius: 50px;
         box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.pro-block {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-top: -8rem;    
 }
 
 .pro-block h2 {
@@ -97,8 +106,9 @@ body {
 .pros {
     display: flex;
     justify-content: space-around;
-    margin-top: 90px;
+    margin-top: 125px;
     padding-bottom: 150px;
+    gap: 100px;
 }
 
 .pro {
@@ -138,7 +148,7 @@ body {
     height: 24.5rem;
     flex-shrink: 0;
     width: 100vw;
-    height: 40vh;
+    height: 55vh;
 }
 
 
@@ -168,15 +178,18 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 1.375rem;
-    padding-bottom: -40px;
 }
 
-
+.person-job {
+    display: flex;
+   /* margin: -2rem*/
+}
 
 .quote p.two {
     font-style: italic;
     font-weight: 400;
-    padding-top: -50px;
+    margin-top: -2rem;
+    
 }
 
 /* most popular tutorials */
@@ -318,7 +331,7 @@ body {
 
 #faq-section {
     background-color: white;
-    color: black;
+    color: #071629;
 }
 
 #faq-block {
@@ -403,6 +416,11 @@ footer {
 
 .social-block {
     padding-right: 350px;
+}
+
+.social-links a {
+    justify-content: space-around;
+    padding: 10px;
 }
 
 
